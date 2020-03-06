@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/linlay"
+    android:theme="@style/ControlPanelTheme"
+    >
+
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="0"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/md_black_1000"
+        android:textSize="13pt"
+        />
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentRight="true">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="FunctionLabel"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dfhdh"
+            android:layout_marginBottom="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"/>
+
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/delete"
+            android:background="@drawable/ripple_effect_main"
+            android:onClick="onDelete"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            />
+
+        <ImageView
+            android:id="@+id/info"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/table"
+            android:background="@drawable/ripple_effect_main"
+            android:onClick="onTable"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/delete"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

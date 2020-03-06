@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name"       >Graph Builder / Analyzer</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit"           >Exit</string>
+    <string name="ok"             >OK</string>
+    <string name="dialog_title"   >Error</string>
+    <string name="error_type_1"   >Incorrect format</string>
+    <string name="screenshot"     >SCREENSHOT</string>
+
+    <string name="delete"         >DELETE</string>
+    <string name="main_functions" >Main Functions</string>
+    <string name="additional_functions">Additional Functions</string>
+    <string name="constants"           >Constants</string>
+
+    <string name="odz"        >Allowable range...</string>
+    <string name="derivatives">Derivatives...</string>
+    <string name="asymptotes" >Asymptotes...</string>
+    <string name="zeros"      >Zeros...</string>
+    <string name="done"       >Done!</string>
+
+    <string name="asymptote">Asymptotes</string>
+    <string name="zeros2"   >Zeros</string>
+
+
+    <string name="calculating" >Calculating...</string>
+    <string name="error_type_2">Error while calculating </string>
+    <string name="error_type_3">Range is too big </string>
+
+    <string name="grid"        >π grid</string>
+
+    <string name="nsscr"        >New screenshot</string>
+    <string name="stg"         >saved to gallery</string>
+
+    <string name="feedback"    >Give Feedback</string>
+
+    <string name="change_language">Change language...</string>
+    <string name="en"             >English</string>
+    <string name="ru"             >Russian</string>
+    <string name="uk"             >Ukrainian</string>
+
+</resources>

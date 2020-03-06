@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        layout = "@layout/app_bar_main">
+    </include>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".MainActivity">
+
+        <com.crazydev.graphbuilder.rendering.OpenGLRenderer
+            android:id="@+id/open_gl_renderer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </com.crazydev.graphbuilder.rendering.OpenGLRenderer>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="55dp"
+        android:layout_gravity="top|start"
+        style="?android:attr/progressBarStyleLarge"
+        android:progress="50"
+        android:visibility="gone"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:text="@string/grid"
+        android:textSize="6pt"
+        android:layout_marginTop="55dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="top|end"
+        style="@style/TextAppearance.AppCompat.Headline" />
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_floating_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+
+        app:srcCompat="@drawable/plus"
+        app:layout_anchor="@id/banner_ad"
+        app:layout_anchorGravity="end"
+        app:useCompatPadding="true"
+        />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/banner_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/ads_margin"
+        ads:adSize="BANNER"
+        android:layout_gravity="bottom|end"
+        ads:adUnitId="@string/banner_id">
+
+    </com.google.android.gms.ads.AdView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

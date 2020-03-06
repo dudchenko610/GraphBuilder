@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="toolbar_height">10dp</dimen>
+    <dimen name="bottom_fab_margin">10dp</dimen>
+    <dimen name="ads_margin"    >4dp</dimen>
+
+    <dimen name="cell_width">180dp</dimen>
+    <dimen name="sub_cell_width">60dp</dimen>
+    <dimen name="asymptote_cell_width">145dp</dimen>
+    <dimen name="zeros_cell_width">60dp</dimen>
+</resources>

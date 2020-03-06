@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"       >Graph Builder / Analyzer</string>
+    <string name="action_settings">Настройки</string>
+    <string name="exit">Выход</string>
+    <string name="ok">OK</string>
+    <string name="dialog_title">Ошибка</string>
+    <string name="error_type_1">Неверный формат</string>
+    <string name="screenshot">Скриншот</string>
+
+    <string name="delete">Удалить</string>
+    <string name="main_functions">Главные функции</string>
+    <string name="additional_functions">Доп. функции</string>
+    <string name="constants">Константы</string>
+
+    <string name="odz">ОДЗ...</string>
+    <string name="derivatives">Производные...</string>
+    <string name="asymptotes">Асимптоты...</string>
+    <string name="zeros">Нули функции...</string>
+    <string name="done">Завершено!</string>
+
+    <string name="calculating">Выполняются расчеты...</string>
+    <string name="error_type_2">Ошибка во время расчетов </string>
+    <string name="error_type_3">Диапазон слишком большой </string>
+
+    <string name="asymptote">Асимптоты</string>
+    <string name="zeros2">Нули</string>
+
+    <string name="grid">π решетка</string>
+
+    <string name="feedback">Оставить отзыв</string>
+
+    <string name="nsscr"        >Новый скриншот</string>
+    <string name="stg"         >сохранен в галерею</string>
+
+    <string name="change_language">Изменить язык...</string>
+    <string name="en">Английский</string>
+    <string name="ru">Русский</string>
+    <string name="uk">Украинский</string>
+
+
+</resources>

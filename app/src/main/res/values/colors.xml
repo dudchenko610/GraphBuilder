@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#bbff0000</color>
+
+    <color name="toolbar_color">#7D0541</color>
+    <color name="background_opaque">#007D0541</color>
+    <color name="background_silver">#17CCD1D1</color>
+    <color name="instrumental_bar_color">#7D0559</color>
+    <color name="border_color">#227D0541</color>
+    <color name="background_color">#107D0541</color>
+    <color name="background_color_data">#047D0541</color>
+
+    <color name="default_color_surface">@color/design_default_color_surface</color>
+
+</resources>

@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="MyTheme"
+        parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/toolbar_color</item>
+        <item name="colorPrimaryDark">@color/instrumental_bar_color</item>
+        <item name="colorAccent">@color/toolbar_color</item>
+
+    </style>
+
+    <style name="ToolbarTheme"
+        parent="ThemeOverlay.AppCompat.Light">
+
+        <item name="colorControlNormal">@color/design_default_color_surface</item>
+    </style>
+
+    <style name="ControlPanelTheme"
+        parent="ThemeOverlay.AppCompat.Light">
+
+
+        <!--   <item name="android:background">@drawable/ripple_effect_main_with_border</item>
+
+
+       <item name="colorControlNormal">@color/md_black_1000</item>
+          <item  name="android:textColor">@color/md_black_1000</item>
+          <item  name="android:windowBackground">@color/design_default_color_surface</item>  -->
+
+
+    </style>
+
+
+</resources>
